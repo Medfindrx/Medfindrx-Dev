@@ -1,0 +1,14 @@
+
+/* Rectangle 3 */
+.boxy{
+box-sizing: border-box;
+
+position: absolute;
+width: 1439px;
+height: 560px;
+left: 0px;
+top: 99px;
+
+background: #EAF3F6;
+border: 0.5px solid #C9C9C9;
+}

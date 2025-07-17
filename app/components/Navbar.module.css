@@ -1,0 +1,129 @@
+/* Outer navbar wrapper */
+.navbar {
+  width: 100%;
+  background-color: #f2f8f9;
+  border-bottom: 1px solid #c9c9c9;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+/* Content container */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+/* Logo section */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.blue {
+  color: #3b82f6;
+}
+.green {
+  color: #10b981;
+}
+.gray {
+  color: #4b5563;
+}
+
+/* Menu items */
+.menuBar {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  height: 100%;
+  
+}
+
+.navItem {
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  position: relative;
+}
+
+.home {
+  font-weight: 500;
+}
+
+.dropdownButton {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Chevron icon */
+.chevron {
+  width: 16px;
+  height: 16px;
+}
+
+/* Dropdown content */
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 8px;
+  z-index: 10;
+  min-width: 120px;
+}
+
+.dropdownItem {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  color: #000000;
+  white-space: nowrap;
+}
+
+.dropdownItem:hover {
+  background-color: #f3f4f6;
+}
+
+/* CTA Button */
+.cta {
+  display: flex;
+  align-items: center;
+}
+
+.ctaButton {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-align: center;
+}
+
+.ctaButton:hover {
+  background-color: #2563eb;
+}
