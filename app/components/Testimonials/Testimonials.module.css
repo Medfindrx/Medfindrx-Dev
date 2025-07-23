@@ -1,0 +1,83 @@
+.testimonialSection {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f3fafa;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subheading {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.cardsWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background-color: #4285f4;
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+  width: 350px;
+  text-align: left;
+  position: relative;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}
+
+.role {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #cce0ff;
+}
+
+.stars {
+  margin: 10px 0;
+  color: #ffdd00;
+  font-size: 18px;
+}
+
+.feedback {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.dots {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 4px;
+  transition: background-color 0.3s ease;
+}
+
+.active {
+  background-color: #333;
+}
